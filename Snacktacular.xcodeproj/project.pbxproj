@@ -14,6 +14,7 @@
 		3E662EC424D1175D00817543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E662EC224D1175D00817543 /* Main.storyboard */; };
 		3E662EC624D1175E00817543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E662EC524D1175E00817543 /* Assets.xcassets */; };
 		3E662EC924D1175E00817543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E662EC724D1175E00817543 /* LaunchScreen.storyboard */; };
+		3EB3E2CB24D5AF25008E1D4E /* SnackUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB3E2CA24D5AF25008E1D4E /* SnackUser.swift */; };
 		3EF55C3424D11A0200D0DBCA /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF55C2324D119F600D0DBCA /* UIViewController+alert.swift */; };
 		3EF55C3524D11A0200D0DBCA /* SpotPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF55C2424D119F600D0DBCA /* SpotPhotoCollectionViewCell.swift */; };
 		3EF55C3624D11A0200D0DBCA /* ReviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF55C2524D119F700D0DBCA /* ReviewTableViewController.swift */; };
@@ -44,6 +45,7 @@
 		3E662EC524D1175E00817543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E662EC824D1175E00817543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E662ECA24D1175E00817543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB3E2CA24D5AF25008E1D4E /* SnackUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackUser.swift; sourceTree = "<group>"; };
 		3EF55C2324D119F600D0DBCA /* UIViewController+alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
 		3EF55C2424D119F600D0DBCA /* SpotPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		3EF55C2524D119F700D0DBCA /* ReviewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewTableViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				3EF55C3324D11A0200D0DBCA /* Reviews.swift */,
 				3EF55C2B24D119FB00D0DBCA /* Photo.swift */,
 				3EF55C2C24D119FC00D0DBCA /* Photos.swift */,
+				3EB3E2CA24D5AF25008E1D4E /* SnackUser.swift */,
 				3EF55C2A24D119FB00D0DBCA /* LoginViewController.swift */,
 				3EF55C2D24D119FD00D0DBCA /* SpotListViewController.swift */,
 				3EF55C2724D119F800D0DBCA /* SpotTableViewCell.swift */,
@@ -296,6 +299,7 @@
 				3EF55C3924D11A0200D0DBCA /* UIBarButtonItem+hide.swift in Sources */,
 				3EF55C3524D11A0200D0DBCA /* SpotPhotoCollectionViewCell.swift in Sources */,
 				3E662EBF24D1175D00817543 /* SceneDelegate.swift in Sources */,
+				3EB3E2CB24D5AF25008E1D4E /* SnackUser.swift in Sources */,
 				3EF55C3424D11A0200D0DBCA /* UIViewController+alert.swift in Sources */,
 				3EF55C3B24D11A0200D0DBCA /* LoginViewController.swift in Sources */,
 				3EF55C4024D11A0200D0DBCA /* Spots.swift in Sources */,
