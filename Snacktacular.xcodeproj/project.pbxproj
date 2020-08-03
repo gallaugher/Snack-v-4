@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E097C5624D7231E00C1DCB9 /* SnackUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E097C5524D7231E00C1DCB9 /* SnackUsers.swift */; };
+		3E097C5824D7232A00C1DCB9 /* SnackUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E097C5724D7232A00C1DCB9 /* SnackUserViewController.swift */; };
+		3E097C5A24D7233700C1DCB9 /* SnackUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E097C5924D7233700C1DCB9 /* SnackUserTableViewCell.swift */; };
 		3E31CF6724D117FF0054948A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E31CF6624D117FF0054948A /* GoogleService-Info.plist */; };
 		3E31CF6924D118800054948A /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E31CF6824D118800054948A /* APIKeys.swift */; };
 		3E662EBD24D1175D00817543 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E662EBC24D1175D00817543 /* AppDelegate.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E097C5524D7231E00C1DCB9 /* SnackUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnackUsers.swift; sourceTree = "<group>"; };
+		3E097C5724D7232A00C1DCB9 /* SnackUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnackUserViewController.swift; sourceTree = "<group>"; };
+		3E097C5924D7233700C1DCB9 /* SnackUserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnackUserTableViewCell.swift; sourceTree = "<group>"; };
 		3E31CF6624D117FF0054948A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3E31CF6824D118800054948A /* APIKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
 		3E662EB924D1175D00817543 /* Snacktacular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snacktacular.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +124,7 @@
 				3EF55C2B24D119FB00D0DBCA /* Photo.swift */,
 				3EF55C2C24D119FC00D0DBCA /* Photos.swift */,
 				3EB3E2CA24D5AF25008E1D4E /* SnackUser.swift */,
+				3E097C5524D7231E00C1DCB9 /* SnackUsers.swift */,
 				3EF55C2A24D119FB00D0DBCA /* LoginViewController.swift */,
 				3EF55C2D24D119FD00D0DBCA /* SpotListViewController.swift */,
 				3EF55C2724D119F800D0DBCA /* SpotTableViewCell.swift */,
@@ -126,6 +133,8 @@
 				3EF55C2424D119F600D0DBCA /* SpotPhotoCollectionViewCell.swift */,
 				3EF55C2524D119F700D0DBCA /* ReviewTableViewController.swift */,
 				3EF55C3124D11A0000D0DBCA /* PhotoViewController.swift */,
+				3E097C5724D7232A00C1DCB9 /* SnackUserViewController.swift */,
+				3E097C5924D7233700C1DCB9 /* SnackUserTableViewCell.swift */,
 				3EF55C2324D119F600D0DBCA /* UIViewController+alert.swift */,
 				3EF55C2924D119FA00D0DBCA /* UIView+addBorder.swift */,
 				3EF55C2824D119F900D0DBCA /* UIBarButtonItem+hide.swift */,
@@ -290,6 +299,7 @@
 				3EF55C3624D11A0200D0DBCA /* ReviewTableViewController.swift in Sources */,
 				3EF55C4224D11A0200D0DBCA /* PhotoViewController.swift in Sources */,
 				3EF55C3724D11A0200D0DBCA /* SpotReviewTableViewCell.swift in Sources */,
+				3E097C5824D7232A00C1DCB9 /* SnackUserViewController.swift in Sources */,
 				3EF55C3F24D11A0200D0DBCA /* Review.swift in Sources */,
 				3EF55C3824D11A0200D0DBCA /* SpotTableViewCell.swift in Sources */,
 				3EF55C3A24D11A0200D0DBCA /* UIView+addBorder.swift in Sources */,
@@ -297,6 +307,8 @@
 				3E31CF6924D118800054948A /* APIKeys.swift in Sources */,
 				3EF55C3D24D11A0200D0DBCA /* Photos.swift in Sources */,
 				3EF55C3924D11A0200D0DBCA /* UIBarButtonItem+hide.swift in Sources */,
+				3E097C5624D7231E00C1DCB9 /* SnackUsers.swift in Sources */,
+				3E097C5A24D7233700C1DCB9 /* SnackUserTableViewCell.swift in Sources */,
 				3EF55C3524D11A0200D0DBCA /* SpotPhotoCollectionViewCell.swift in Sources */,
 				3E662EBF24D1175D00817543 /* SceneDelegate.swift in Sources */,
 				3EB3E2CB24D5AF25008E1D4E /* SnackUser.swift in Sources */,
@@ -450,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9937BJYLPH;
 				INFOPLIST_FILE = Snacktacular/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9937BJYLPH;
 				INFOPLIST_FILE = Snacktacular/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
