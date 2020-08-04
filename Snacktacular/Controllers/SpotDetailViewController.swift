@@ -160,7 +160,11 @@ class SpotDetailViewController: UIViewController {
                 self.cancelBarButton.hide()
                 self.navigationController?.setToolbarHidden(true, animated: true)
                 self.disableTextEditing()
-                self.performSegue(withIdentifier: segueIdentifier, sender: nil)
+                if segueIdentifier == "AddReview" {
+                    self.performSegue(withIdentifier: segueIdentifier, sender: nil)
+                } else {
+                    self.cameraOrLibraryAlert()
+                }
             }
         }
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
