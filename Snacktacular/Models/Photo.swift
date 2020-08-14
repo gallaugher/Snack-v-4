@@ -75,7 +75,7 @@ class Photo {
         // create an uplaodTask
         let uploadTask = storageRef.putData(photoData, metadata: uploadMetaData) { (metadata, error) in
             if let error = error {
-                print("😡 ERROR: uplaod for ref \(uploadMetaData) failed. \(error.localizedDescription)")
+                print("😡 ERROR: upload for ref \(storageRef) failed. \(error.localizedDescription)")
             }
         }
         
